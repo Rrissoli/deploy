@@ -2,13 +2,13 @@
 
 # Exercício de classe 🏫
 
-## Fazer deploy de uma aplicação no Heroku
+## Implementar Query Builder na API
 
-Na aula anterior você refatorou sua aplicação para utilizar o `Query Builder` com o `Knex.js` e agora chegou o grande momento de colocar sua aplicação no ar.
+A API disponibilizada neste repositório foi desenvolvida utilizando a biblioteca `node-postgres` e todas as queries foram construidas manualmente (query bruta).
 
-Faça o deploy dessa aplicação no Heroku e teste os endpoints no insomnia para garantir que sua aplicação está funcionando perfeitamente.
+A sua tarefa será substituir todas as queries criadas no projeto utilizando `Query Builder` com o `Knex.js` mantendo toda estrutura restante do projeto conforme foi desenvolvido.
 
-Lembrando que o banco de dados precisa ser configurado no Heroku e suas credenciais precisa ser atualizadas na aplicação.
+Para as rotas de cadastro, deverá retornar um objeto com o registro criado contendo todos os campos da tabela, ao invés de retornar uma mensagem de cadastro com sucesso.
 
 ---
 
@@ -19,4 +19,4 @@ Preencha a checklist para finalizar o exercício:
 -   [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
 -   [ ] Pushar os commits no seu fork na origem (`git push origin nome-da-branch`)
 
-###### tags: `back-end` `módulo 4` `nodeJS` `PostgreSQL` `API REST` `deploy` `query builder`
+###### tags: `back-end` `módulo 4` `nodeJS` `PostgreSQL` `API REST` `knex` `query builder`
