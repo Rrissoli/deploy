@@ -5,7 +5,9 @@ const produtos = require('./controladores/produtos');
 const verificaLogin = require('./filtros/verificaLogin');
 
 const rotas = express();
-
+rotas.get('/ping', async (req, res) => {
+    return res.send('pong')
+})
 // cadastro de usuario
 rotas.post('/usuarios', usuarios.cadastrarUsuario);
 
